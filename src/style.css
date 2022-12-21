@@ -13,6 +13,7 @@ body {
   
 }
 .TARJETA{
+  
   background-color: rgb(69, 68, 70);
   width: 600px;
   margin:auto;
@@ -21,6 +22,7 @@ body {
   line-height: 20px;
 }
   form{
+  
   background-color: aliceblue;
   left: 200px;
   width: 400px;

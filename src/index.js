@@ -35,12 +35,12 @@ function formulario(){
         if (posicion %2 == 0) {
           // multiplicar posiciones pares ]);
           let multiplicacionPar=reverserArrayTarjeta[posicion]*2
-           console.log(multiplicacionPar,"PAR");
+          console.log(multiplicacionPar,"PAR");
           
            //el resultado de la multiplicacion es mayor a 10 sumar digitos
            if(multiplicacionPar>=10){
             let nuevaPosicion=multiplicacionPar.toString(); //convertir en string, para convertir en un numero
-             console.log(typeof nuevaPosicion,"nuevaposicion");
+         console.log(typeof nuevaPosicion,"nuevaposicion");
 
              let sumaDigitos=nuevaPosicion.split('').reduce((r, n) => r + parseInt(n), 0);//Se declara nueva variable 
               resultado.push(sumaDigitos);
@@ -51,22 +51,39 @@ function formulario(){
           } else{                          //buscar posciones impares
           console.log("IMPAR");
           resultado.push(Number(reverserArrayTarjeta[posicion]))
-          console.log(resultado,"IMPAR");
+        //  console.log(resultado,"IMPAR");
         }
           
              //sumar pares e impares
       let sumaPosciones=resultado.reduce((a, b) => a + b, 0);
       console.log(sumaPosciones,"suma");
-
+// resultado dividir 10 (si es igual  a 10 debe de devolver valido y de contario devolver a invalido
              if(sumaPosciones % 10===0){
               alert("su tarjeta es validad")
-             }
-              else{
+             }else{
             alert("Su tarjeta no es valida");
              }
     }
-       console.log(resultado,"resultado1234")     
-}
-    
+       console.log(resultado,"resultado1234")  
+       
+}  
+ //Funcion Maskify
+       //maskify:(tarjetaNum)=>{
+         //       tarjetaNum=tarjetaNum.split("")
+  //for(let posciones=0;posicion<tarjetaNum.length-4;posicion++){
+    //  tarjeta[posicion]="#"
+ // }
+ //tarjetaNum=tarjetaNum.join("")
+ //console.log(tarjetaNum,"#");
 
-  // resultado dividir 10 (si es igual  a 10 debe de devolver true y de contario devolver a falso // console.log(validator)
+
+       
+       
+
+  
+
+
+
+
+
+
