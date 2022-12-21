@@ -2,13 +2,66 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Agencia de Viajes</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    
+    <header>
+      <h1> AGENCIA DE VIAJES 🛩<h1> <br>
+
+      <p>
+        Vivimos en un mundo maravilloso que está lleno de belleza,encanto y aventura.
+        No hay un límite para las aventuras que podemos tener siempre y cuando las busquemos
+        con los ojos bien abiertos
+      </p> <br>         
+    </header>
+
+         <section class = "TARJETA">
+         <center>
+               <h2> REALIZAR PAGO </h2> <br>
+                <P class ="numero_tarjeta"> 0000 0000 0000 0000</P>
+            <form class=" DATOS DE TARJETA">
+                <P class =" delatelle de tarjeta=name"> YANDIRA CONDO  </P>
+                <p> <span class="TARJETA_MES"> </span>00/00 <span class="TARJETA_AÑO"> </span></p>
+              </form>
+         </center>
+        </section >
+        <main>
+        <form action="" class="formulario" id="formulario">
+          
+          <center>
+                              
+              <div>
+                <label for="nombre">Nombres y apellidos</label>
+                <input type="texto" name="nombre" id="nombre">
+              </div>
+                    
+              <div>
+                <label for="tarjeta">Numero de Tarjeta</label>
+                <input type="texto" name="tarjeta" maxlength="16" id="tarjeta">
+              </div>
+                
+              <div>
+                <label for="mes">Expiracion (MM/AA )</label>
+                 <input type="texto" maxlength="02" id="mes">
+            
+                  <label for="año">Expiracion (MM/MES )</label>
+                <input type="texto" maxlength="02" id="año">
+                
+              </div>
+            
+              <button type="button"  id="boton">REGISTRAR</button>
+          </center>
+          
+        </form>
+    
+   </main>
+
+    <footer>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
+
+
 </html>

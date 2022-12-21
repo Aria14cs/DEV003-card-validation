@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
+* [1. Preámbulo][def]
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
@@ -462,3 +462,6 @@ Project Feedback:
 * [ ] El proyecto será entregado subiendo tu código a GitHub.
 * [ ] La interfaz será "desplegada" usando GitHub Pages.
 * [ ] El README contiene una definición del producto.
+
+
+[def]: #1-preámbulo

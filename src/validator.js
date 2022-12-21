@@ -1,5 +1,20 @@
-const validator = {
-  // ...
+/*/const validator = {
+  isValid: function(){
+  
+    console.log("hola");
+    return true;
+  }
+  
 };
 
-export default validator;
+*/
+//
+const validator={
+
+//function maskify
+
+
+
+ }
+
+export default validator
