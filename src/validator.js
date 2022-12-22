@@ -1,20 +1,14 @@
-/*/const validator = {
-  isValid: function(){
+const validator = {
+       // Funcion Maskify
+  maskify:function(tarjetaNum){
+     tarjetaNum=tarjetaNum.split("")
+
+     for(let posicion=0;posicion<tarjetaNum.length-4;posicion++){
+     tarjetaNum[posicion]="#"
   
-    console.log("hola");
-    return true;
-  }
-  
+     }
+     return tarjetaNum
+ }
 };
 
-*/
-//
-const validator={
-
-//function maskify
-
-
-
- }
-
-export default validator
+export default validator;
