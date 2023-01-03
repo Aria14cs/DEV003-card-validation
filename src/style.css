@@ -4,22 +4,23 @@
     box-sizing:border-box;
 }
 
-body {
-  background-image: url(https://www.viajaraperu.com/wp-content/uploads/2013/04/Machu_Picchu.jpg);
-  background-repeat: no-repeat;
-  background-position:O;
+header {
+  background-color: cadetblue;
   margin-top: 100px;
   padding:20px ;
-  
+  color: #e6e2e9;
+  align-items: center;
 }
+
 .TARJETA{
   
-  background-color: rgb(69, 68, 70);
+  background-color: rgb(73, 70, 70);
   width: 600px;
   margin:auto;
   padding: 10px 0px 10px 0px;
   border-radius: 6px;
   line-height: 20px;
+
 }
   form{
   
@@ -32,6 +33,7 @@ body {
   padding: 10px 0px 10px 0px;
   line-height: 20px;
   font-size: 16px;
+  
 }
   
 
