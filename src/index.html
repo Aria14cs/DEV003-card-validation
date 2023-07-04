@@ -8,51 +8,46 @@
   <body>
     
     <header>
-      <h1> AGENCIA DE VIAJES 🛩<h1> <br>
-
+      <h1> AGENCIA DE VIAJES 🛩<h1> 
+      
       <p>
         Vivimos en un mundo maravilloso que está lleno de belleza,encanto y aventura.
         No hay un límite para las aventuras que podemos tener siempre y cuando las busquemos
         con los ojos bien abiertos
-      </p> <br>         
+      </p>
     </header>
-
-         <section class = "TARJETA">
+   
+         <section class="contenedor">
          <center>
                <h2> REALIZAR PAGO </h2> <br>
-                <P class ="numero_tarjeta"> 0000 0000 0000 0000</P>
-            <form class=" DATOS DE TARJETA">
-                <P class =" delatelle de tarjeta=name"> YANDIRA CONDO  </P>
-                <p> <span class="TARJETA_MES"> </span>00/00 <span class="TARJETA_AÑO"> </span></p>
-              </form>
+               
          </center>
         </section >
         <main>
-        <form action="" class="formulario" id="formulario">
+        <form action="" class="form-tarjeta" id="form-tarjeta">
           
-          <center>
+          
                               
-              <div>
-                <label for="nombre">Nombres y apellidos</label>
-                <input type="texto" name="nombre" id="nombre">
+              <div class="form-datos">
+                <label id="nombre">Nombres y apellidos</label>
+                <input class="datos" type="texto" name="nombre" id="nombre">
               </div>
                     
-              <div>
-                <label for="tarjeta">Numero de Tarjeta</label>
-                <input type="texto" name="tarjeta" maxlength="16" id="tarjeta">
+              <div class="form-nroTarjeta">
+                <label id="tarjeta">Numero de Tarjeta</label>
+                <input class="nro" type="texto" name="tarjeta" maxlength="16" id="tarjeta">
               </div>
                 
-              <div>
-                <label for="mes">Expiracion (MM/AA )</label>
-                 <input type="texto" maxlength="02" id="mes">
-              </div>
-              <div>
-                  <label for="año">Expiracion (MM/MES)</label>
-                <input type="texto" maxlength="02" id="año">
+              <div class="form-expiracion">
+                 <label class="año1"> Año </label>
+                 <input class="año2" type="texto" maxlength="02" id="mes">
+          
+                  <label class="mes1">Mes</label>
+                <input  class="mes2" type="texto" maxlength="02" id="año">
               </div>
             
               <button type="button"  id="boton">REGISTRAR</button>
-          </center>
+          
           
         </form>
     

@@ -4,36 +4,99 @@
     box-sizing:border-box;
 }
 
-header {
-  background-color: cadetblue;
-  margin-top: 100px;
+
+header{
+  width: 100%;
+
+}
+h1 {
+  margin-top: 60px; 
+  color: #111112;
+  text-align:center;
+  font-size: 40px;
+}
+
+p {
+  width: 100%;
+  margin-top: 50px;
   padding:20px ;
-  color: #e6e2e9;
+  color: #111112;
   align-items: center;
+  font-size: 20px;
+ 
+
 }
 
-.TARJETA{
-  
+.contenedor{
+  margin-top: 50px;
   background-color: rgb(73, 70, 70);
-  width: 600px;
+  width: 400px;
+  height: 50px;
   margin:auto;
-  padding: 10px 0px 10px 0px;
-  border-radius: 6px;
-  line-height: 20px;
-
+  border-radius: 6px;  
+  align-items: center;
+ 
 }
-  form{
-  
+
+
+.form-tarjeta{
   background-color: aliceblue;
-  left: 200px;
+  /* left: 200px; */
+  height: 500px;
   width: 400px;
   margin:auto;
   border-radius: 4px;
-  margin-top: 10px;
+  align-items: center;
+  
+}
+
+.form-tarjeta .form-datos .datos {
+
   padding: 10px 0px 10px 0px;
-  line-height: 20px;
+  line-height: 15px;
   font-size: 16px;
   
 }
-  
+.form-tarjeta .form-nroTarjeta .nro{
 
+  padding: 10px 0px 10px 0px;
+  line-height: 15px;
+  font-size: 16px;
+}
+.form-tarjeta .form-expiracion .año1{
+
+  padding: 10px 0px 10px 0px;
+  line-height: 5px;
+  font-size: 16px;
+  margin-right: 50px;
+  margin-top: relative;
+  
+}
+.form-tarjeta .form-expiracion .año2{
+
+  padding: 10px 0px 10px 0px;
+  /* line-height: 5px; */
+  font-size: 3px;
+  margin-top: 20px;
+  margin-top: relative;
+  margin-right: 50px;
+ 
+}
+.form-tarjeta .form-expiracion .mes1{
+
+  padding: 10px 0px 10px 0px;
+  line-height: 5px;
+  font-size: 16px;
+  
+  
+}
+.form-tarjeta .form-expiracion .mes2{
+
+  padding: 10px 0px 10px 0px;
+  /* line-height:5px; */
+  font-size: 3px;
+  margin-top: -5px;
+  position: relative;
+  margin-right: 10px;
+ 
+}
