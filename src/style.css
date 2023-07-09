@@ -1,102 +1,154 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-header{
+ body{
+  background: linear-gradient(rgb(163, 209, 146), rgb(86, 162, 111));
+  width: auto;
+  height: auto;
+}
+header {
   width: 100%;
+}
+
+img{
+  width: 100%;
+  height: 170px;
+  opacity: 70%;
+  
+  background-size: cover;
 
 }
+
 h1 {
-  margin-top: 60px; 
+
+  margin-top: 10px;
   color: #111112;
-  text-align:center;
+  text-align: center;
   font-size: 40px;
 }
 
+h2 {
+
+  
+  color: #fbfbfb;
+  text-align: center;
+  font-size: 30px;
+  
+}
 p {
   width: 100%;
   margin-top: 50px;
-  padding:20px ;
+  padding: 20px;
   color: #111112;
   align-items: center;
   font-size: 20px;
- 
-
 }
 
-.contenedor{
-  margin-top: 50px;
-  background-color: rgb(73, 70, 70);
-  width: 400px;
+.contenedor {
+ 
+  background-color: rgb(8, 8, 8);
+  width: 600px;
   height: 50px;
-  margin:auto;
-  border-radius: 6px;  
-  align-items: center;
+  margin: auto;
+  border-radius: 6px;
  
 }
 
+.form-tarjeta {
+  background-image: url(https://wonder-day.com/wp-content/uploads/2021/04/wonder-day-llama-4.jpg);
+  background-repeat: no-repeat;
+   height: 400px;
+   width: 600px;
+   margin: auto; 
+   background-size: cover;
+  margin-top: 20px;
+}
 
-.form-tarjeta{
-  background-color: aliceblue;
-  /* left: 200px; */
-  height: 500px;
-  width: 400px;
-  margin:auto;
-  border-radius: 4px;
-  align-items: center;
+.form-datos .datos1 {
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 22px;
+  position:absolute;
   
-}
-
-.form-tarjeta .form-datos .datos {
-
-  padding: 10px 0px 10px 0px;
-  line-height: 15px;
-  font-size: 16px;
   
+ 
 }
-.form-tarjeta .form-nroTarjeta .nro{
-
-  padding: 10px 0px 10px 0px;
+.form-datos .datos2 {
+  padding: 10px 170px 10px 0px;
   line-height: 15px;
-  font-size: 16px;
+  margin-left:250px;
+  margin-top: 50px;
 }
-.form-tarjeta .form-expiracion .año1{
+.form-nroTarjeta .masked-card1{
+  line-height: 15px;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 22px;
+  position:absolute;
+}
+ .form-nroTarjeta .masked-card2 {
+  padding: 10px 170px 10px 0px;
+  line-height: 15px;
+  margin-left:250px;
+  margin-top: 20px;
+}
 
-  padding: 10px 0px 10px 0px;
+.form-expiracion {
+  margin-top: 20px;
+  position:absolute;
+}
+
+.form-expiracion .año1{
+ 
   line-height: 5px;
-  font-size: 16px;
-  margin-right: 50px;
-  margin-top: relative;
-  
+  font-size: 22px;
+  margin-top: 20px;
+  margin-left: 150px;
+  position:absolute;
 }
-.form-tarjeta .form-expiracion .año2{
-
+.form-expiracion .año2 {
   padding: 10px 0px 10px 0px;
   /* line-height: 5px; */
-  font-size: 3px;
-  margin-top: 20px;
-  margin-top: relative;
-  margin-right: 50px;
- 
-}
-.form-tarjeta .form-expiracion .mes1{
-
-  padding: 10px 0px 10px 0px;
-  line-height: 5px;
   font-size: 16px;
-  
-  
+  margin-left: 50px;
+  margin-top: 5px;
+  position:absolute;
+  margin-left: 200px;
+  width: 60px; 
 }
-.form-tarjeta .form-expiracion .mes2{
-
-  padding: 10px 0px 10px 0px;
-  /* line-height:5px; */
-  font-size: 3px;
-  margin-top: -5px;
-  position: relative;
-  margin-right: 10px;
+.form-expiracion .mes1 {
  
+  line-height: 5px;
+  font-size: 22px;
+  margin-left: 360px;
+  position:absolute;
+  margin-top: 20px;
+
 }
+.form-expiracion .mes2 { 
+  width: 60px; 
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  margin-left: 400px;
+  margin-top: 5px;
+  position:absolute;
+}
+
+.button{
+  margin-top: 180px;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(20, 20, 21);
+  border-radius: 6px;
+  align-items: center;
+  margin-left: 230px;
+  color: aliceblue;
+  
+  
+}
+
+
+

@@ -1,13 +1,15 @@
 const validator = {
   // Funcion Maskify
-  maskify: function (tarjetaNum) {
-    tarjetaNum = tarjetaNum.split("");
+  maskify: function (tarjeta2) {
+    tarjeta2 = tarjeta2.split("");
 
-    for (let posicion = 0; posicion < tarjetaNum.length - 4; posicion++) {
-      tarjetaNum[posicion] = "#";
+    for (let posicion = 0; posicion < tarjeta2.length - 4; posicion++) {
+      tarjeta2[posicion] = "#";
     }
-    return tarjetaNum;
+    return tarjeta2.join("");
   },
 };
 
 export default validator;
+
+ 

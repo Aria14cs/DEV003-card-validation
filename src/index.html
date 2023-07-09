@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
     <header>
+      <img src="./img/cusco.jpg"> 
       <h1> AGENCIA DE VIAJES 🛩<h1> 
-      
+        
       <p>
         Vivimos en un mundo maravilloso que está lleno de belleza,encanto y aventura.
         No hay un límite para las aventuras que podemos tener siempre y cuando las busquemos
@@ -20,43 +20,40 @@
          <section class="contenedor">
          <center>
                <h2> REALIZAR PAGO </h2> <br>
-               
          </center>
         </section >
+
         <main>
-        <form action="" class="form-tarjeta" id="form-tarjeta">
-          
-          
-                              
+        <form action="" class="contenedorFormulario" id="contenedorFormulario">
+          <div class="contenedorForm">
+           <div class="form-tarjeta" >            
               <div class="form-datos">
-                <label id="nombre">Nombres y apellidos</label>
-                <input class="datos" type="texto" name="nombre" id="nombre">
+                <div class="datos1" id="nombre">Nombres y apellidos</div>
+                <input class="datos2" type="texto" name="nombre" id="nombre">
               </div>
                     
               <div class="form-nroTarjeta">
-                <label id="tarjeta">Numero de Tarjeta</label>
-                <input class="nro" type="texto" name="tarjeta" maxlength="16" id="tarjeta">
+                <div class="masked-card1" id="tarjeta1">Numero de Tarjeta</div>
+                <input class="masked-card2" type="texto" name="tarjeta" maxlength="16" id="tarjeta2">
               </div>
                 
               <div class="form-expiracion">
-                 <label class="año1"> Año </label>
+                 <div class="año1"> Año </div>
                  <input class="año2" type="texto" maxlength="02" id="mes">
           
-                  <label class="mes1">Mes</label>
+                  <div class="mes1">Mes</div>
                 <input  class="mes2" type="texto" maxlength="02" id="año">
               </div>
             
-              <button type="button"  id="boton">REGISTRAR</button>
+              <button class="button" type="button"  id="button">REGISTRAR</button>
           
-          
+            </div>
+          </div>
         </form>
-    
    </main>
 
     <footer>
     </footer>
     <script src="index.js" type="module"></script>
   </body>
-
-
 </html>

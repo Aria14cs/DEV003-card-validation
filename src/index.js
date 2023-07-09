@@ -1,6 +1,6 @@
 import validator from "./validator.js";
 
-const form = document.getElementById("boton");
+const form = document.getElementById("button");
 
 form.addEventListener("click", function (e) {
   e.preventDefault();
@@ -9,7 +9,8 @@ form.addEventListener("click", function (e) {
 
 function formulario() {
   //const nombre = document.getElementById("nombre").value;
-  const tarjeta = document.getElementById("tarjeta").value;
+  const tarjeta = document.getElementById("tarjeta2").value;
+  console.log = (tarjeta);
   //const mes = document.getElementById("mes").value;
   //const año = document.getElementById("año").value;
   const arrayTarjeta = tarjeta.split("");
@@ -17,7 +18,7 @@ function formulario() {
   //reversa de numero
   let reverserArrayTarjeta = arrayTarjeta.reverse();
   let resultado = [];
-  console.log(reverserArrayTarjeta);
+  // console.log(reverserArrayTarjeta);
   //declarion de variable para llamar a fuera de for
   let sumaPosciones = 0;
   //recorrer  el reverseArrayTarjeta
@@ -44,7 +45,7 @@ function formulario() {
         //console.log(arrayPosicion,"sumaMultiplicacion");
         //resultado.push( agregando elementos para posteriomente sumar);*/
         resultado.push(arrayPosicion);
-        console.log(resultado, "suma mayor 9 y menor 9");
+        //console.log(resultado, "suma mayor 9 y menor 9");
         /*let sumaDigitos = nuevaPosicion
           .split("")
           .reduce((r, n) => r + parseInt(n), 0); //Se declara nueva variable
@@ -56,14 +57,14 @@ function formulario() {
       //buscar posciones impares
       //console.log("IMPAR");
       resultado.push(Number(reverserArrayTarjeta[posicion]));
-      console.log(resultado, "IMPAR");
+      //console.log(resultado, "IMPAR");
     }
   }
 
   for (let i = 0; i < resultado.length; i++) {
     sumaPosciones = sumaPosciones + resultado[i]; //
   }
-  console.log(sumaPosciones, "sumaPosiciones");
+//  console.log(sumaPosciones, "sumaPosiciones");
 
   // resultado dividir 10 (si es igual  a 10 debe de devolver valido y de contario devolver a invalido
   if (sumaPosciones % 10 === 0) {
@@ -72,7 +73,10 @@ function formulario() {
     alert("Su tarjeta no es valida");
   }
 
-  console.log(resultado, "resultado");
+ console.log(resultado, "resultado");
 }
-//tarjetaNum=tarjetaNum.join("")
-console.log(validator.maskify("4137894711755904"));
+
+
+const tarjetaNum = resultado.join("")
+  tarjetaNum(validator.maskify("tarjeta2").value);
+ formulario ()
